@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-center {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .login-form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .login-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 16px;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.btn-primary {
+  display: block; /* Ensure the button takes full width */
+  width: 50%; /* Set the width of the button */
+  margin: 0 auto; /* Center the button horizontally */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-check-input {
+    margin-right: 8px;
+  }
+  
+  /* Optional: Adjust styles for smaller screens */
+  @media (max-width: 576px) {
+    .login-form {
+      padding: 1.5rem;
+    }
+  }
+  
+  .newbtn-secondary{
+    margin-left: 4.6rem;
+    margin-top: 0.3rem;
+  }
+
